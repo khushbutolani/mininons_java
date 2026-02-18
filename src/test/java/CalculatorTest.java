@@ -8,7 +8,6 @@ public class CalculatorTest {
     @Test
     public void testMultiply() {
         Calculator calc = new Calculator();
-        assertEquals(6, calc.multiply(2, 2));
+        assertEquals(4, calc.multiply(2, 2));
     }
 }
-
